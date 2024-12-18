@@ -37,6 +37,7 @@ public class BinarySearchTree {
             }
         }
     }
+
     public boolean search(int value) {
         Node current = root;
         while (current != null) {
@@ -75,5 +76,4 @@ public class BinarySearchTree {
     public void setRoot(Node root) {
         this.root = root;
     }
-
 }
